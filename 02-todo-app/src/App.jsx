@@ -14,12 +14,6 @@ function App(){
   }
   
 
-  const deleteTodo = (index)=>{
-    console.log("delete",index);
-    todo.splice(index, 1)
-    setTodo([...todo])
-  }
-
   const editTodo = (index)=>{
     console.log("edit",index);
     const update = prompt()
