@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Contact = () => {
+
+  const [num, setNum] = useState(0)
+
   return (
     <div>Contact</div>
   )
