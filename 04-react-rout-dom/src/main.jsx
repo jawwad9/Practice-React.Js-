@@ -7,6 +7,7 @@ import Layout from './Layout.jsx'
 import Home from './screens/Home.jsx'
 import About from './screens/About.jsx'
 import Contact from './screens/Contact.jsx'
+import SingliPage from './screens/SingliPage.jsx'
 
 const route = createBrowserRouter([
   {
@@ -24,14 +25,15 @@ const route = createBrowserRouter([
       {
         path: "Contact",
         element: <Contact/>,
-      }
+      },
+      {
+        path: "SingliPage/:id",
+        element: <SingliPage/>
+      },
     ]
   }
 ])
 
 
 createRoot(document.getElementById('root')).render(
-<RouterProvider router={route}>
-      <App />
-</RouterProvider>
-)
+<RouterProvider router={route} />)

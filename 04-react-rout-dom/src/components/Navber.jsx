@@ -7,6 +7,7 @@ const Navber = () => {
     <Link to="Home">Home</Link>
     <Link to="About">About</Link>
     <Link to="Contact">Contact</Link>
+    <Link to="SingliPage/hgfg">SingliPage</Link>
     </>
   )
 }
