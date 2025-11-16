@@ -16,6 +16,10 @@ const SingliPage = () => {
         })
         .catch((err)=>{
             console.log(err);
+            console.log(err);
+            console.log(err);
+            console.log(err);
+            console.log(err);
             
         })
     },[])
