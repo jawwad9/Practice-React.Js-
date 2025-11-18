@@ -40,12 +40,6 @@ const Home = () => {
 
 
     {/* <Card title="the school" price="$50"/> */}
-    {/* <Card title="the school" price="$50"/> */}
-    {/* <Card title="the school" price="$50"/> */}
-    {/* <Card title="the school" price="$50"/> */}
-    {/* <Card title="the school" price="$50"/> */}
-    {/* <Card title="the school" price="$50"/> */}
-    {/* <Card title="the school" price="$50"/> */}
     </>
   )
 }
