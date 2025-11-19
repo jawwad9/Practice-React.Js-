@@ -2,7 +2,7 @@ import React from 'react'
 
 const SingliPage = () => {
   return (
-    <div>SingliPage</div>
+    <div>Singlijrg,cxcveeaojgiskgfzlkvnxczm;asfnknc,cmzcpoafknxcvkxzcv.dmsjksfbnkzxcmvosdPage</div>
   )
 }
 

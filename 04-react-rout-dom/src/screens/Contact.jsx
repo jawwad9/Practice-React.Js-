@@ -5,7 +5,7 @@ const Contact = () => {
   const [num, setNum] = useState(0)
 
   return (
-    <div>Contact</div>
+    <div>Contosdfdkfv,cmvkzfbosFFb'PSDDNVkvnfvnmv,zdmc;oafnALDMcs,djsgsvnb ;HbSJKJFLAK klfbkjskJGv KJVB;ksJBvzvbKDbact</div>
   )
 }
 
