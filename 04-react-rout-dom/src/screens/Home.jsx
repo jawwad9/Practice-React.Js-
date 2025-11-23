@@ -12,7 +12,7 @@ const Home = () => {
     useEffect(()=>{
         axios('https://fakestoreapi.com/products')
         .then((res)=>{
-            console.log(res); 
+            // console.log(res); 
             setData(res.data)
         })
         .catch((err)=>{
@@ -21,7 +21,7 @@ const Home = () => {
         })
     },[])
 
-    console.log(data);
+    // console.log(data);
     
 
   return (
