@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const Card = ({src, title, price, id}) => {
+const Card = ({src, title, price, id, showBtn = true}) => {
 
   const Navigate = useNavigate()
 
@@ -14,7 +14,7 @@ const Card = ({src, title, price, id}) => {
         <img src={src} alt="" width={200}/>
         <h1>{title}</h1>
         <h3>Price: {price}</h3>
-        <button onClick={SingliProductPage}>Click</button>
+        {showBtn ? <button onClick={SingliProductPage}>Click</button>  : null}
     </div>
     </>
   )
