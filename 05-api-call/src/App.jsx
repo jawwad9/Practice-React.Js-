@@ -2,7 +2,7 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div className='text-center' >App</div>
+    <div className='text-center mt-5' >App</div>
   )
 }
 
