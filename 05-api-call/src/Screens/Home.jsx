@@ -1,3 +1,4 @@
+import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 
 const Home = () => {
@@ -6,7 +7,7 @@ const Home = () => {
 
 useEffect(()=>{
 
-  const data = ("")
+  const data = axios("")
   .than((res)=>{
     console.log(res);
     
