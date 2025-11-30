@@ -17,7 +17,7 @@ useEffect(()=>{
   })
 },[])
   return (
-    <div>Home</div>
+    <div>Home ihugfdftyguhijoipouyitrytrsaesrdtfyguiuoip;uohgfjhdgcjhkjkj</div>
   )
 }
 
