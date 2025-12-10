@@ -54,7 +54,7 @@ function App() {
     if (questionIndex < questions.length - 1) {
       setQuestionIndex(questionIndex + 1);
     } else {
-      setShowModal(true); // ✅ Show modal wzsxdhfcjgccnbvcfvrgdthjyhnbvgrshtedbcv ccbgfhen quiz ends
+      setShowModal(true); // ✅ Show modal when quiz ends
     }
   }
 
@@ -67,7 +67,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100 flex justify-center items-center px-2 relative">
 
-      {/* ✅ RESULT MODAL kjfdhmm vghtcjkvilv,hmbvgrthyukyihjmnvbcvdfesrtryuikjmnhvbfvrgtyhju*/}
+      {/* ✅ RESULT MODAL */}
       {showModal && (
         <div className="fixed inset-0 bg-black bg-opacity-60 flex justify-center items-center">
           <div className="bg-white p-6 rounded-xl w-full max-w-sm text-center">
